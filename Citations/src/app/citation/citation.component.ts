@@ -7,6 +7,10 @@ import {Citation } from '../citation'
 })
 export class CitationComponent implements OnInit {
   newCitation:Citation[];
+addCitation(cit){
+  this.newCitation.push(cit);
+
+}
 
   constructor() { }
 
