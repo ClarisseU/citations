@@ -3,13 +3,13 @@
     <hr>
     <form>
         <div class="form-group shadow-textarea green-border">
-            <textarea rows="5" placeholder="enter your quote here"></textarea>
+            <textarea rows="5" placeholder="enter your quote here" [(ngModel)]=newCitation.quote></textarea>
         </div>
         <div class="form-group">
-            <input type="text" placeholder="enter your name">
+            <input type="text" placeholder="enter your name" [(ngModel)]=newCitation.name>
         </div>
         <div class="form-group">
-            <input type="text" placeholder="enter the name of the author">
+            <input type="text" placeholder="enter the name of the author" [(ngModel)]=newCitation.author>
         </div>
         <div class="form-group">
             <button type="submit">add quote</button>
