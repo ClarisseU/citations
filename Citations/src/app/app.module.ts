@@ -3,10 +3,14 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { CitationComponent } from './citation/citation.component';
+import { FormCitationComponent } from './form-citation/form-citation.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CitationComponent,
+    FormCitationComponent
   ],
   imports: [
     BrowserModule,
