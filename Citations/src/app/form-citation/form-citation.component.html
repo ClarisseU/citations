@@ -1,7 +1,7 @@
 <div class="container-fluid">
     <h2 class="text-center">Insert a new quote</h2>
     <hr>
-    <form>
+    <form (ngsubmit)='submitCit()' formCitation='ngForm'>
         <div class="form-group shadow-textarea green-border">
             <textarea rows="5" placeholder="enter your quote here" [(ngModel)]=newCitation.quote></textarea>
         </div>
